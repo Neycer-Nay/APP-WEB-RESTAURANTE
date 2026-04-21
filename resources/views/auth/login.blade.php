@@ -39,9 +39,18 @@
                     </a>
                 @endif--}}
 
+
+                
                 <x-button class="ms-4">
                     {{ __('Acceder') }}
                 </x-button>
+
+     <x-button class="ms-4">          {{-- Botón de Registrar --}}
+    <a " href="{{ route('register') }}">
+        {{ __('Crear cuenta') }}
+    </a>
+    </x-button>
+
             </div>
         </form>
     </x-authentication-card>
